@@ -2,7 +2,7 @@
 # CalciumSelenide - Wed Nov 12 02:32:55 PM CST 2022
 import serial
 import serial.tools.list_ports as list_ports
-from microBitController import arrowController
+from serialKeyListener import arrowController
 
 if __name__ == "__main__":
     # Try to establish communication with the microbit connected to your laptop serially
