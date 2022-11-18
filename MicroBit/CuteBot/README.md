@@ -1,0 +1,4 @@
+# ELECFREAKS CuteBot for Micro:Bit
+ELECFREAKS manufactures the [CuteBot](https://www.elecfreaks.com/micro-bit-smart-cutebot.html) car for the Micro:Bit. This little device is capable of many incredible things: line sensing, ultra sonic sensing, I2C addons, and much more. EREC put together a little summer course for our students that used these devices, introducing the logistics behind electric cars, an area of industry that is growing at a rapid pace.
+
+In our attempt to create lessons and code for our students, we discovered that another individual had already forged a path forward with this device in Mu-Editor: [Krakenus](https://github.com/Krakenus/microbit-cutebot-micropython). Using his examples to teach ourselves, we began assembling lessons and making code to achieve the goals we wanted for our students. 
