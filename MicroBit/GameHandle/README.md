@@ -6,3 +6,10 @@ This piece of code has the very basics of getting outputs from the controller. P
 
 ## 🎮 controllerClass.py
 Stay tuned...
+
+## 🗒️ Notes
+When it comes to digital logic with switches, the industry standard is that a switch, when flipped or pressed, pulls the signal from high to low (taking a digital logic from a `1 ⟶ 0`). 
+
+In both of these codes, you will find: `pinX.set_pull(pinX.PULL_UP)`
+
+This line sets the signal on pinX to default as `HIGH (1)` because we are `pulling pinX up` to a voltage extremely close to the voltage we are providing. When the switch is flipped/pressed, the voltage drops significantly as most of the electrons travel to ground, resulting in that pin giving a digital logic value of `LOW (0)`.
