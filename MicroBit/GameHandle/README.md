@@ -9,7 +9,7 @@ Stay tuned...
 
 ## 🗒️ Notes
 ### Switches, Digital Logic, and Us
-When it comes to digital logic and switches, the most comman configuration is that a switch, when flipped or pressed, pulls the signal from high to low (taking a digital logic from a `1 ⟶ 0`). 
+When it comes to digital logic and switches, the most common configuration is that a switch, when flipped or pressed, pulls the signal from high to low (taking a digital logic from a `1 ⟶ 0`). 
 
 In both of these codes, you will find: `pinX.set_pull(pinX.PULL_UP)`
 
