@@ -1,5 +1,5 @@
 # Elkins Robotics/Electronics Club
-This code repository is for all the coding things that we built when teaching our students electronics and robotics. The tools we use continues to prove that they engage the minds of childeren when used appropriately. As we progress, we think it would be wise to share the lessons we have learned with others so that they can learn with us. 
+This code repository is for all the coding things that we built when teaching our students electronics and robotics. The tools we use continues to prove that they engage the minds of children when used appropriately. As we progress, we think it would be wise to share the lessons we have learned with others so that they can learn with us. 
 
 ## Prerequisites
  - [Micro:Bit Wiki pages](https://microbit-micropython.readthedocs.io/en/v1.1.1/index.html)
