@@ -7,4 +7,4 @@ This code repository is for all the coding things that we built when teaching ou
    - [Thonny](https://thonny.org/) | Students do not use this in class, but some volunteers do and it works just as well
  - The desire to *learn*!
 ## Notes on our Development Environments
-Our volunteers and students utilize Ubuntu 20.04, Ubuntu 22.04, and occassonally Windows 10 operating systems for code development/testing. Most of our work is done in the linux environment, but a few of our students bring thier own laptops that have Windows. 
+Our volunteers and students utilize Ubuntu 20.04, Ubuntu 22.04, and occasionally Windows 10 operating systems for code development/testing. Most of our work is done in the linux environment, but a few of our students bring thier own laptops that have Windows. 
