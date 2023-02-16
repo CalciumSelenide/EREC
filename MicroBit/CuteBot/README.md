@@ -4,7 +4,7 @@ ELECFREAKS manufactures the [CuteBot](https://www.elecfreaks.com/micro-bit-smart
 In our attempt to create lessons and code for our students, we discovered that another individual had already forged a path forward with this device in Mu-Editor: [Krakenus](https://github.com/Krakenus/microbit-cutebot-micropython). Using his examples to teach ourselves, we began assembling lessons and making code to achieve the goals our students desired
 
 ---
-## CuteBot Car Modules
+## :blue_car: CuteBot Car Modules
 The codebase for our CuteBot consists of three scripts:
 * main.py
 * cutebotcar.py
@@ -25,7 +25,7 @@ This is our cutebotcar library, chock full of function defintions that can allow
 This is our receiver that listens for commands from our transmitting Micro:Bit.
 
 ---
-## Controlling the CuteBot Car
+## :computer: Controlling the CuteBot Car (via a laptop)
 There are three additonal pieces of code that control our CuteBot and live in two different places:
 
 ### Micro:Bit Transmitter
