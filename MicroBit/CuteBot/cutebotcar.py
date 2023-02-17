@@ -208,7 +208,7 @@ def setState(direction: str = ""):
         turnRight()
         state = "B2"
     elif b_count == 3:
-        # Line following mode - ENGAGE
+        # Ultrasonic detection mode - ENGAGE
         state = "B3"
         stop()
         music.play(music.POWER_UP)
@@ -249,7 +249,7 @@ def checkState(state):
         setRightLED(0, 0, 0)
         sleep(400)
     elif state == "B3":
-        # Detect the line!
+        # Detect with Ultrasonic!
         ultrasonicSense(trigger, echo)
     else:
         pass
