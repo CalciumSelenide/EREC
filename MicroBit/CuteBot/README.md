@@ -33,7 +33,7 @@ This is our receiver that listens for commands from our transmitting Micro:Bit.
 There are three additonal pieces of code that control our CuteBot and live in two different places:
 
 ### Micro:Bit Transmitter
-To control our CuteBot, we need another Micro:Bit plugged into our laptop. Upload the `radioTRANSMITTER.py` code to it, reset it, and it will await your commands from the laptop.
+To control our CuteBot, we need another Micro:Bit plugged into our laptop. Upload the `radioTRANSMITTER.py` code to it (found in `RemoteControl(Laptop)`, reset it, and it will await your commands from the laptop.
 
 ### Laptop Controller
 With our codebase, our laptop is our remote control. Download the `RemoteControl` directory to your computer, then run `serialInterface.py` to send arrow keys to your transmitter, that then get sent to your car, which makes it move!
