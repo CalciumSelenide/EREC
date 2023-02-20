@@ -21,7 +21,10 @@ This is the `main loop`, where the most baisc logic happens in our code.
 This is our cutebotcar library, chock full of function defintions that can allow the car to execute almost any task, such as:
 * Moving forward or backward
 * Turning left or right
-* Sensing using IR
+* Detecting light
+* Turning the headlights on
+* Changing the headlight color
+* Sensing lines using IR
 * Sensing using ultra sonic sensors via the I2C bus
 * I2C commands to other peripherals
 
