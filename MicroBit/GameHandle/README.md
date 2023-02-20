@@ -6,7 +6,7 @@ The Yahboom Game Handle is a nifty piece of hardware, but offers no explaination
 </p>
 
 ## 🕹️ gameController.py
-This piece of code has the very basics of getting outputs from the controller. Plug the Micro:Bit into a computer, flash the code to your device (**leave the Micro:Bit plugged into the computer**), open a serial reader on the microbit port (usually `/dev/ttyACM0` or `/dev/ttyS0`), and play with the controller.
+This piece of code has the very basics of getting outputs from the controller. Plug the Micro:Bit into a computer, flash the code to your device (**leave the Micro:Bit plugged into the computer**), open a serial reader on the Micro:Bit port (usually `/dev/ttyACM0` or `/dev/ttyS0`), and play with the controller.
 
 ## 🎮 controllerClass.py
 This is a more advanced piece of code in comparison to `gameController.py`: it integrates the lessons learned and establishes a Controller class that initializes all digital pins when created. In additon, it has several on-board functions, the most informational of which are:
