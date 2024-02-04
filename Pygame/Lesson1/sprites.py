@@ -6,6 +6,8 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
 import pygame, time
 
+SPRITE_DIR = '../imgs/platformerGraphicsDeluxe'
+
 class Sprite():
     def __init__(self, x, y, w, h, img):
         self.identity = None
@@ -32,7 +34,7 @@ class Sprite():
 class Clyde(Sprite):
     def __init__(self, x, y):
         # Initialize Clyde and set his identity 
-        super().__init__(x, y, 66, 92, "imgs/p1_front.png")
+        super().__init__(x, y, 66, 92, SPRITE_DIR + "/Player/p1_front.png")
         self.identity = "CLYDE"
 
     def addSprite(self, view, sprite):

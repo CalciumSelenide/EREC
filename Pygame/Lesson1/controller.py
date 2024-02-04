@@ -8,7 +8,9 @@ import pygame, time
 from pygame.locals import *
 
 class Controller():
+    
     def __init__(self, model):
+        # Initialize the model!
         self.model = model
 
     def update(self):
