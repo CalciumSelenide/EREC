@@ -48,7 +48,7 @@ class Clyde(Sprite):
 class Grass(Sprite):
     def __init__(self, x, y):
         # Initialize
-        super().__init__(x, y, 70, 70, SPRITE_DIR + "/Tiles/grass.png")
+        super().__init__(x, y, 70, 70, SPRITE_DIR + "/Tiles/grassMid.png")
         self.identity = "GRASS"
 
     def addSprite(self, view, sprite):

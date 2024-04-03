@@ -16,7 +16,7 @@ class Model():
         # Drop Clyde into our world
         self.clyde = sprites.Clyde(100, 100)
         self.slime = enemies.Slime(300, 300)
-        self.grass = sprites.Grass(70, 100)
+        #self.grass = sprites.Grass(0, 530)
         pass
 
     def update(self):
@@ -36,6 +36,16 @@ class Model():
         
         fyle.close()
 
+        # Now we try to place all the objects in our map
+        count = 0
+        for key, value in self.map.items():
+            print("Loading: " + key)
+            for secondKey, secondValue in value.items():
+                print(secondKey, secondValue)
+                envObj = getattr(sprites, secondValue[0])
+                self.grass = envObj(secondValue[1][0], secondValue[1][1])
+                count += 1
+    
     def mapSave(self):
         # Save the map
         fyle = open('map.txt', mode='w')
