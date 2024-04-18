@@ -1,0 +1,1 @@
+{"ENVIRONMENT": {"GRASS-000": ["Grass", (0, 560)], "GRASS-001": ["Grass", (70, 560)], "GRASS-002": ["Grass", (140, 560)]}}
